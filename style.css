@@ -1,0 +1,51 @@
+.tartalom {
+  position: relative;
+  display: none;
+}
+.kepeck {
+  float: left;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid dodgerblue;
+	box-shadow: 0 0 0 8px #eee, 0 0 0 9px #ccc;
+  padding: 5px;
+}
+.kepeck img {
+	
+  opacity: 0.8;
+  cursor: pointer;
+}
+.kepeck img:hover {
+  opacity: 1;
+}
+.row{
+	display:flex;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#kepszov {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+.kinyom {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+@media screen and (min-width: 200px) {
+  .kepeck {
+    display: auto;
+  }
+}
