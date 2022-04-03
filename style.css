@@ -2,6 +2,9 @@
   position: relative;
   display: none;
 }
+#kepem1 {
+  width: 400px;
+}
 .kepeck {
   float: left;
 	display: block;
