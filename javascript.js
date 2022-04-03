@@ -1,13 +1,24 @@
-function elozo(){
+var kep = 1;
+
+function elozo() {
+        kep--;
+        if(kep<1) {
+          kep = 1;
+        }
         document.getElementById('kepem')
-        .src="kepek/maki1.jpg";
+        .src="kepek/maki" + kep + ".jpg";
         document.getElementById('kepem')
         .innerHTML="Heello";
 }
      
-function masik(){
+function kovetkezo() {
+        kep++;
+        
+        if(kep>3) {
+          kep = 3;
+        }
         document.getElementById('kepem')
-        .src="kepek/maki2.jpg";
+        .src="kepek/maki" + kep + ".jpg";
         document.getElementById('kepem')
         .innerHTML="Heello";
 }
