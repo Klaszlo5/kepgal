@@ -1,19 +1,13 @@
-function megnyom(imgs) {
-	getElementById("galeria").style.display = "none";
-	document.getElementsByClassName(kepeckt)[0], 
-	document.getElementsByClassName(kepeckt)[1],
-	document.getElementsByClassName(kepeckt)[2];
-  var kinagy = document.getElementById("nagyobitot");
-  var retail = document.getElementById("kepeckt");
-  kinagy.src = imgs.src;
-  retail.innerHTML = imgs.alt;
-  kinagy.parentElement.style.display = "block";
+function elozo(){
+        document.getElementById('kepem')
+        .src="kkepek/maki1.jpg";
+        document.getElementById('kepem')
+        .innerHTML="Heello";
 }
-var c =0;
-function filterezés(c) {
-  var indexkep = document.getElementsByClassName("galeria");
-  if (c == "all") c = "";
-    removeFilter(thumbnails[i], "filter--show");
-    if (thumbnails[i].className.indexOf(c) > -1) addFilter(thumbnails[i], "filter--show");
-  }
+     
+function masik(){
+        document.getElementById('kepem')
+        .src="kepek/maki2.jpg";
+        document.getElementById('kepem')
+        .innerHTML="Heello";
 }
