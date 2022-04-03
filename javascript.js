@@ -5,7 +5,7 @@ function elozo() {
         if(kep<1) {
           kep = 1;
         }
-        document.getElementById('kepem')
+        document.getElementById('kepem1')
         .src="kepek/maki" + kep + ".jpg";
         document.getElementById('kepem')
         .innerHTML="Heello";
@@ -17,7 +17,7 @@ function kovetkezo() {
         if(kep>3) {
           kep = 3;
         }
-        document.getElementById('kepem')
+        document.getElementById('kepem1')
         .src="kepek/maki" + kep + ".jpg";
         document.getElementById('kepem')
         .innerHTML="Heello";
